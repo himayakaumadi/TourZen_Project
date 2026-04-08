@@ -1,4 +1,4 @@
-# TourZen - Tourism Management & Forecasting Dashboard
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/66ce9c82-6a54-48ab-96f4-96ad5983c391" /># TourZen - Tourism Management & Forecasting Dashboard
 
 TourZen is a modern tourism management application built with Flask and Firebase. It provides a comprehensive platform for managing tourism-related data, visualizing trends, and leveraging machine learning for predictive analysis.
 
@@ -17,7 +17,7 @@ TourZen is a modern tourism management application built with Flask and Firebase
 - **Backend**: Python (Flask)
 - **Database**: Firebase Realtime Database
 - **ML/Processing**: Scikit-learn, Pandas, NumPy
-- **Frontend**: HTML5, Vanilla CSS, JavaScript, Jinja2 Templates
+- **Frontend**: HTML5, Vanilla CSS, Bootstrap
 - **Environment**: Dotenv for configuration, Firebase Admin SDK for secure access.
 
 ## 📁 Project Structure
@@ -73,5 +73,3 @@ The project includes tools for evaluating the predictive models:
 - `model_evaluation_scatter.png`: Visual evaluation of prediction results.
 - `model_selection_residuals.png`: Residual analysis for model accuracy.
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
