@@ -67,6 +67,9 @@ python app.py
 ```
 Visit `http://127.0.0.1:5000` in your browser.
 
+## 🎥 Demo Video
+Watch the demo here: https://drive.google.com/file/d/1F6Cu81Q2VUZr_9XR2OtRqudmcfF_y_LN/view?usp=sharing 
+
 ## 📈 ML Model Evaluation
 The project includes tools for evaluating the predictive models:
 - `evaluate_model.py`: Script for performance metrics.
