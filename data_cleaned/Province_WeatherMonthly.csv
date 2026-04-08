@@ -1,0 +1,109 @@
+Province,Month,Avg_Temperature_C,Avg_Rainfall_mm
+Western,January,27,60
+Western,February,27,70
+Western,March,28,150
+Western,April,29,250
+Western,May,28,350
+Western,June,27,200
+Western,July,27,150
+Western,August,27,160
+Western,September,27,200
+Western,October,27,300
+Western,November,26,350
+Western,December,26,200
+Central,January,27,60
+Central,February,27,70
+Central,March,28,150
+Central,April,29,250
+Central,May,28,350
+Central,June,27,200
+Central,July,27,150
+Central,August,27,160
+Central,September,27,200
+Central,October,27,300
+Central,November,26,350
+Central,December,26,200
+Southern,January,27,60
+Southern,February,27,70
+Southern,March,28,150
+Southern,April,29,250
+Southern,May,28,350
+Southern,June,27,200
+Southern,July,27,150
+Southern,August,27,160
+Southern,September,27,200
+Southern,October,27,300
+Southern,November,26,350
+Southern,December,26,200
+Sabaragamuwa,January,27,60
+Sabaragamuwa,February,27,70
+Sabaragamuwa,March,28,150
+Sabaragamuwa,April,29,250
+Sabaragamuwa,May,28,350
+Sabaragamuwa,June,27,200
+Sabaragamuwa,July,27,150
+Sabaragamuwa,August,27,160
+Sabaragamuwa,September,27,200
+Sabaragamuwa,October,27,300
+Sabaragamuwa,November,26,350
+Sabaragamuwa,December,26,200
+North Western,January,28,40
+North Western,February,29,50
+North Western,March,30,80
+North Western,April,31,150
+North Western,May,30,200
+North Western,June,29,120
+North Western,July,29,100
+North Western,August,29,110
+North Western,September,29,150
+North Western,October,29,250
+North Western,November,28,300
+North Western,December,28,180
+North Central,January,28,40
+North Central,February,29,50
+North Central,March,30,80
+North Central,April,31,150
+North Central,May,30,200
+North Central,June,29,120
+North Central,July,29,100
+North Central,August,29,110
+North Central,September,29,150
+North Central,October,29,250
+North Central,November,28,300
+North Central,December,28,180
+Northern,January,29,20
+Northern,February,30,30
+Northern,March,31,50
+Northern,April,32,80
+Northern,May,31,120
+Northern,June,30,70
+Northern,July,30,60
+Northern,August,30,70
+Northern,September,30,90
+Northern,October,29,150
+Northern,November,28,200
+Northern,December,28,100
+Eastern,January,29,20
+Eastern,February,30,30
+Eastern,March,31,50
+Eastern,April,32,80
+Eastern,May,31,120
+Eastern,June,30,70
+Eastern,July,30,60
+Eastern,August,30,70
+Eastern,September,30,90
+Eastern,October,29,150
+Eastern,November,28,200
+Eastern,December,28,100
+Uva,January,29,20
+Uva,February,30,30
+Uva,March,31,50
+Uva,April,32,80
+Uva,May,31,120
+Uva,June,30,70
+Uva,July,30,60
+Uva,August,30,70
+Uva,September,30,90
+Uva,October,29,150
+Uva,November,28,200
+Uva,December,28,100

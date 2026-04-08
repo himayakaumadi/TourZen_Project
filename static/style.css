@@ -1,0 +1,191 @@
+/* Custom Brand UI Kit for TourZen */
+
+:root {
+    --bg-color: #F0FAF7;
+    --primary-green: #10B981;
+    --primary-green-hover: #059669;
+    --dark-text: #113229;
+    --gray-text: #596E67;
+    --card-bg: #FFFFFF;
+}
+
+body {
+    font-family: 'Outfit', sans-serif !important;
+    background-color: var(--bg-color);
+    color: var(--dark-text);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Base Headings & Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--dark-text);
+}
+
+/* Custom Navbar */
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.navbar-brand-custom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-green) !important;
+    text-decoration: none;
+}
+
+.navbar-brand-custom svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-links-custom {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-links-custom a {
+    text-decoration: none;
+    color: var(--dark-text);
+    font-weight: 500;
+    font-size: 1.05rem;
+    transition: color 0.3s;
+}
+
+.nav-links-custom a:hover, .nav-links-custom a.active {
+    color: var(--primary-green);
+    font-weight: 600;
+}
+
+.nav-user-actions-custom {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.user-greeting-custom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--dark-text);
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.user-icon-custom {
+    width: 32px;
+    height: 32px;
+    background-color: #D1FAE5;
+    color: var(--primary-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-logout-custom {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: transparent;
+    border: 1px solid var(--primary-green);
+    color: var(--primary-green);
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-logout-custom:hover {
+    background-color: #D1FAE5;
+    color: var(--primary-green);
+}
+
+/* Buttons */
+.btn-primary-brand {
+    background-color: var(--primary-green) !important;
+    border-color: var(--primary-green) !important;
+    color: #fff !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+.btn-primary-brand:hover {
+    background-color: var(--primary-green-hover) !important;
+    border-color: var(--primary-green-hover) !important;
+}
+
+.btn-brand-outline {
+    background-color: transparent !important;
+    border: 2px solid var(--primary-green) !important;
+    color: var(--primary-green) !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.btn-brand-outline:hover {
+    background-color: #D1FAE5 !important;
+    color: var(--primary-green) !important;
+}
+
+/* Hero Containers */
+.hero-brand {
+    background-color: transparent;
+    color: var(--dark-text);
+    text-align: center;
+    padding: 4rem 2rem 2rem;
+    border-radius: 16px;
+}
+
+.hero-brand h2, .hero-brand h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+/* Auth Cards (Login/Signup) */
+.auth-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.auth-card h2 {
+    color: var(--primary-green);
+    font-weight: 800;
+}
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+/* Generic Cards for Dashboard/Trends */
+.card-brand {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+@media (max-width: 768px) {
+    .nav-links-custom { display: none; }
+    .navbar-custom { padding: 1.5rem 2rem; }
+}
